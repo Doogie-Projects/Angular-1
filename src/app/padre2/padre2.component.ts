@@ -6,7 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./padre2.component.css']
 })
 export class Padre2Component {
+
   valorContador: number = 0;
+  mensajePadre: string = 'Mensaje dede el padre';
 
   incrementar() {
     this.valorContador++;
