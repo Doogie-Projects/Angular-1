@@ -8,6 +8,7 @@ import { HijoComponent } from './hijo/hijo.component';
 import { Padre2Component } from './padre2/padre2.component';
 import { Hijo2Component } from './hijo2/hijo2.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HermanoComponent } from './hermano/hermano.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     PadreComponent,
     HijoComponent,
     Padre2Component,
-    Hijo2Component
+    Hijo2Component,
+    HermanoComponent
   ],
   imports: [
     BrowserModule,
