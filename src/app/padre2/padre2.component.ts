@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./padre2.component.css']
 })
 export class Padre2Component {
+  valorContador: number = 0;
 
+  incrementar() {
+    this.valorContador++;
+  }
+
+  decrementar() {
+    this.valorContador--;
+  }
 }
