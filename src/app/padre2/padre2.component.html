@@ -6,3 +6,6 @@
 <button (click)="decrementar()">Decrementar</button>
 
 <app-hijo2 [recibeHijo2]="mensajePadre"></app-hijo2>
+<app-hijo2 (mensajeDesdeHijo2)="recibirMensaje($event)"></app-hijo2>
+
+<h5>EL MENSAJE RECIBIDO DESDE EL HIJO ES: {{mensajeRecibido}}</h5>
